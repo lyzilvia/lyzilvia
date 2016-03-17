@@ -1,0 +1,18 @@
+User menu
+---------
+
+1. There are total 2 main function of this shop management system:
+-For sales managment
+-For the clients' information
+ 
+2. For sales managemnt
+This system help you to get control of the product items
+and marking bills.
+
+3. For clients' information
+This system help you to check and edit the clients 
+information easily.
+
+4. All the functions in the system are linked by menu, users can 
+choose what they want by following the menu.
+
