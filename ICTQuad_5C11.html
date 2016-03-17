@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+<title>Quadratic Equation Solver</title>
+</head>
+<body>
+<script language="JavaScript">
+function discriminant() {
+	window.alert("Hello! I'm going to help you to solve the Quadratic Equation ~ ");
+
+	var name = prompt("Please enter your name","");
+	var a = prompt("Enter the value of a please","");
+	var b = prompt("Enter the value of b please","");
+	var c = prompt("Enter the value of c please","");
+
+	var d = b*b-4*a*c;
+	var e = Math.sqrt(d);		
+	var f = 2*a;
+
+	var g = (-b+e)/f;
+	var h = (-b-e)/f;
+		
+	var i = (-b);
+
+	document.write(name+", thank you for using Quadratic Equation Solver! <p> ");
+	document.write("The equation: "+"( "+a+") "+"x<sup>2</sup> "+"+ "+"( "+b+") "+"x "+"+ "+"( "+c+") "+"= 0 <hr> ");
+	document.write("&#916; "+"= "+"( "+b+") "+"<sup>2</sup> "+"- "+"4 "+"( "+a+") "+"( "+c+") <br>");
+	document.write("&nbsp;&nbsp; "+"= "+d+"<p> ");
+		if (d<0)
+		{
+			document.write("&#916; "+"< "+"0 "+", <br>")
+			document.write("&#8756; "+"The equation has no real root.    ");
+		}
+		else if (d>0)
+{
+			document.write("&#916; "+"> "+"0 "+", <br>")
+			document.write("&#8756; "+"The equation has two distinct real roots. ");
+		}
+		else
+{
+			document.write("&#916; "+"= "+"0 "+", <br>")
+			document.write("&#8756; "+"The equation has one double real root. ");
+		}
+                document.write("<hr> The quadratic formula "+": <p> ");
+                document.write("x = "+"[ "+"- "+"( "+b+") "+"<u>+</u> "+"&#8730; "+"4( "+a+")( "+c+") "+"] "+"/ "+"[ "+"2( "+a+") "+"] <br>");
+                document.write("&nbsp;&nbsp; "+"= "+"( "+i+"<u>+</u> "+"&#8730; "+d+") "+"/ "+f );
+                document.write("<hr> The root(s) of x "+": <p> ");
+		if (d<0)
+		{
+			document.write("x = "+"( "+i+"+ "+"&#8730; "+d+") "+"/ "+f+"<br> ");
+			document.write("<u>OR</u> "+"<br> ");
+			document.write("x = "+"( "+i+"- "+"&#8730; "+d+") "+"/ "+f );
+		}
+		else if (d>0)
+{
+			document.write("x = "+Math.round(g*1000)/1000+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+"<u>OR</u> "+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+"x = "+Math.round(h*1000)/1000);
+		}
+		else
+{
+			document.write("x = "+Math.round(g*1000)/1000+"(repeated) " );
+		}
+}
+discriminant();
+	</script>
+</html>

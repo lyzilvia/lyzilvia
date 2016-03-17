@@ -1,0 +1,7 @@
+LINEAR
+ClrStat:?->A:?->B:?->C:?->D:?->X:A,B DT:C,D DT:a+b EXE b EXE a EXE b EXE a+bX EXE Xa+bX(X+1)/2 EXE 
+
+Qudratic
+ClrStat:?->A:?->B:?->C:?->D:?->X:0,0 DT:A,B DT:C,D DT:b+c->A EXE 2c->D EXE A-D EXE D EXE A-D+DX EXE bX+cX^2 EXE b EXE c EXE
+
+?->A:?->B:?->C:?->D:?->X:(B/D)^((A-C)^-1)->M:If cos((A-C)pi^r)=1:Then Goto 1:Else Goto 2:Lbl 1:-M EXE M EXE B/((-M)^(A-1))->Y EXE B/(M^(A-1))->C EXE Y(-M)^(X-1) EXE CM^(X-1) EXE Y((-M)^(X)-1)/(-M-1) EXE C(M^(X)-1)/(M-1) EXE IfEnd:If Abs(M)<1:Then Y/(1-(-M)) EXE C/(1-M) EXE Else 0^-1:Lbl 2:M EXE B/(M^(A-1))->Y EXE YM^(X-1) EXE Y(M^(X)-1)/(M-1) EXE If Abs(M)<1:Then Y/(1-M) EXE Else 0^-1
