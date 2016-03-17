@@ -1,0 +1,53 @@
+#flog {
+	width:30%;
+	text-align:left;
+}
+
+a:link {
+	color:#CC99FF;
+}
+
+a:visited {
+	color:#99FFCC;
+}
+
+a:hover {
+	color:red;
+}
+
+#ta {
+	border:0px;
+}
+
+th {
+	text-align:right;
+	vertical-align:top;
+	padding-right:10px;
+	padding-top:2px;
+}
+
+td {
+	vertical-align:top;
+	padding-bottom:15px;
+}
+
+#bu {
+	text-align:center;
+}
+
+body {
+	font-family:Bradley-Hand-ITC,Copperplate-Gothic-Light,Comic-Sans,Cursive;
+	background-image:url(../image/bg.jpg);
+}
+
+#counter {
+	text-align:right;
+}
+
+#nav {height:40px; width:70%; line-height:40px; float:right; margin:40px 0; background:#200000; position:relative;}
+#nav li {float:left; padding:0 30px;}
+#nav li a {display:block; padding:0 10px;}
+#nav li a.on {background:#202020;}
+#nav li ul {display:none; height:12px; line-height:12px; padding:10px 0; position:absolute; left:15%; top:50px; background:#282828;}
+#nav li ul li {border-right:1px solid #ccc; color:gray;}
+#nav li ul li a {display:inline; padding:0;}

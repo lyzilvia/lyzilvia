@@ -1,0 +1,9 @@
+#menu {overflow:hidden; width:200px; height:500px; list-style-type:none; padding:0;}
+#menu h1{margin:0px; color:#739c23; font-size:14px;}
+#menu li { list-style:none; display:block; width:178px; border:1px solid #739c23; border-bottom-width:0px;}
+#menu li .end{border-bottom-width:1px;}
+#menu li a{ display:block; text-decoration:none; width:100%; padding:10px;}
+#menu li a span{ display:none; color:#99FFFF; font-size:12px; padding:10px 0 0 0;}
+#menu li a:hover{ background:#280000;}
+#menu li a:hover span{ display:block; cursor:hand;} 
+body {margin-top:25px; margin-left:10px; margin-right:0px;}

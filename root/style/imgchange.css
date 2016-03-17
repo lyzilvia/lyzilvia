@@ -1,0 +1,12 @@
+<!-- 
+/* jQuery jcImgScroll css */
+.jcImgScroll { position:relative; height:250px;  }
+.jcImgScroll li { border:1px solid #ccc; }
+.jcImgScroll li a { background:#fff; display:block; height:250px;  }
+.jcImgScroll li.loading a { background:#fff url(../image/loading.gif) no-repeat center center;} 
+.jcImgScroll li img,.jcImgScroll li,.jcImgScroll em,.jcImgScroll dl { display:none; border:0 none;}
+.jcImgScroll em.sPrev { background:url(../image/arrow-left.png) no-repeat left center; }
+.jcImgScroll em.sNext { background:url(../image/arrow-right.png) no-repeat right center;}
+.jcImgScroll dl dd { background:url(../image/NumBtn.png) no-repeat 0 bottom; text-indent:-9em; }
+.jcImgScroll dl dd:hover,.jcImgScroll dl dd.curr { background-position:0 0; }
+-->

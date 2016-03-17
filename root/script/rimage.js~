@@ -1,0 +1,23 @@
+today=new Date();
+jran=today.getTime();
+function rnd() {
+ia=9301;
+ic=49297;
+im=233280;
+jran = (jran*ia+ic) % im;
+return jran/(im*1.0);
+};
+function rand(number) {
+return Math.ceil(rnd()*number);
+};
+document.write("<center>");
+for(i=1;i<=1;i++) {
+myNum=(rand(3)); //改成你要隨機顯示的圖片數；
+if(myNum == 1) document.write("<img src='../image/P27.jpg'>"); 
+if(myNum == 2) document.write("<img src='../image/P21.jpg'>");
+if(myNum == 3) document.write("<img src='../image/jk_03.jpg'>");
+else {
+document.write();
+}
+};
+document.write("</center>");
