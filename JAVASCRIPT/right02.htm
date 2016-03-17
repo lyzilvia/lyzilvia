@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>無標題文件</title>
+<script language="javascript">
+function factorial(x) {
+	fact_ans=1;
+	for (i=1;i<=x;i++) {
+		fact_ans=fact_ans*i;}
+	return fact_ans;}
+function nCr(n,r) {
+	n=cal.n.value;
+	r=cal.r.value;
+	a=factorial(n);
+	b=factorial(n-r);
+	c=factorial(r);
+	c_ans=a/(b*c);
+	return c_ans;}
+function clearform() {
+	cal.n.value="";
+	cal.r.value="";
+	cal.ans.value="";}
+function display_ans() {
+	cal.ans.value=c_ans;}
+function check() {
+	if (cal.ans.value=="") {
+		window.alert("Please enter your answer.");}
+	else if (cal.ans.value==c_ans) {
+		window.alert("Correct!!");}
+	else {
+		window.alert("You are wrong! Try again~~");}
+	}
+function valid() {
+	if ((cal.n.value=="")||(cal.r.value=="")) {
+		window.alert("Please enter your value(s).");}
+	}
+</script>
+</head>
+<body>
+<div align="center" class="style4"></div>
+<p></p>
+<fieldset>
+<legend>nCr Calculator</legend>
+<form name="cal">
+<div align="center" class="style5">n = 
+    <input type="text" name="n">
+</div>
+<p align="center" class="style5"></p>
+<div align="center" class="style5">r = 
+    <input type="text" name="r">
+</div>
+<p align="center" class="style5"></p>
+<div align="center" class="style5">
+  <input type="button" value="Calculate" onClick="valid();nCr(n,r);display_ans();">&nbsp;
+  <input type="button" value="Cancel" onClick="clearform();">
+</div>
+<p align="center" class="style5"></p>
+<div align="center" class="style5">nCr = 
+    <input type="text" name="ans">
+</div>
+<p align="center" class="style5"></p>
+<div align="center" class="style5">
+  <input type="button" value="Check Answer" onClick="valid();nCr(n,r);check();">
+</div>
+</form>
+</fieldset>
+</body>
+</html>
