@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PopMspace_Hong Kong Music Awards online voting system</title>
+	<link type="text/css" rel="stylesheet" href="../../style/baset.css">
+<frameset rows="15%,*" frameborder="0">
+  <frame src="../frame/dph.html">
+  <frameset cols="15.4%,*">
+    <frame src="../frame/dpnav.html">
+    <frame src="../frame/dp01.html" name="main">
+  </frameset>
+  <noframes>Sorry, your browser does not handle frames!</noframes>
+</frameset>
+</head>
+<body>
+
+</body>
+</html>
