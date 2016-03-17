@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PopMspace_Hong Kong Music Awards online voting system</title>
+	<link type="text/css" rel="stylesheet" href="../style/baset.css">
+	<link rel="stylesheet" type="text/css" href="../style/demoreset.css">
+	<script src="../script/nav.js"></script>
+</head>
+<body>
+	<ul id="nav">
+		<li><a href="home.html" target="_self">Home</a></li>
+		<li><a href="supp.html" target="_self">Supports</a>
+			<ul>
+				<li><a href="manual.html" target="_self">User Manual</a></li>
+				<li><a href="contact.html" target="_self">Contact Us</a></li>
+			</ul>
+		</li>
+		<li><a href="info.html" target="_self">Information</a>
+			<ul>
+				<li><a href="about.html" target="_self">About Us</a></li>
+				<li><a href="intro.html" target="_self">About The Award</a></li>
+				<li><a href="rule.html" target="_self">Rules of Election</a></li>
+				<li><a href="spon.html" target="_self">Sponsers</a></li>
+				<li><a href="property.html" target="_self">Intellectual Property</a></li>
+			</ul>
+		</li>
+		<li><a href="awards.html" target="_self">Awards</a>
+			<ul>
+				<li>Best Singer  <a href="award/bestsingm.html" target="_self">M</a> / <a href="award/bestsingf.html" target="_self">F</a></li>
+				<li>Best Group  <a href="award/bestgpm.html" target="_self">M</a> / <a href="award/bestgpf.html" target="_self">F</a></li>
+				<li>Best  <a href="award/bestmv.html" target="_self">MV</a> / <a href="award/bestdp.html" target="_self">Dance Performance</a></li>
+				<li>Most Popular  <a href="award/mvpsing.html" target="_self">Singer</a> / <a href="award/mvpgp.html" target="_self">Group</a> / <a href="award/mvpsong.html" target="_self">Songs</a></li>
+			</ul>
+		</li>
+		<li><a href="news.html" target="_self">News & Events</a></li>
+		<li><a href="tos.html" target="_self">Terms of Service</a></li>
+	</ul>
+</body>
+</html>
