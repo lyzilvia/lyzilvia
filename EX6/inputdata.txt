@@ -1,8 +1,0 @@
-Jane Simms s 500.00 0.05 c 200.00 400.00
-Owen Bryant c 200.00
-Tim Soley s 1500.00 0.05 c 200.00
-Maria Soley s 150.00 0.05
-Jane Dragon s 320.00 0.04 c 300.00
-Text Bryant s 800.00 0.06
-Tag Logsd c 300.00
-Jane Dragsn s 320.00 0.04 c 300.00
